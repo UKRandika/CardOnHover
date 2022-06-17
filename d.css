@@ -1,0 +1,12 @@
+/* .row{
+    margin: 0;
+} */
+.card{
+    margin-left: -10em;
+    transition: margin-left 200ms;
+    cursor: pointer;
+}
+.card:hover+.card {
+    margin-left: 1em;
+    
+}
